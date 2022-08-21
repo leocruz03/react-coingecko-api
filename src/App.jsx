@@ -26,7 +26,7 @@ export default function App() {
 
     return (
         <div className="container">
-            <h1>Coin Market</h1>
+            <h1>Coin Market Coingecko</h1>
             <div className="row">
                 <input type="text" placeholder="Search a coin" className="form-control bg-dark text-light border-0 mt-4 text-center" 
                     value={ search } onChange={ (e) => setSearch(e.target.value) }
